@@ -114,11 +114,9 @@ Usage:
 
 `<path>` can be either a tablespace file or a data directory.
 
-## Server Setup for Clone (Native SQL)
+## Server Setup for Clone
 
-Below is a minimal example for a remote clone using `CLONE INSTANCE FROM`.
-
-The command is executed on the **recipient**. The donor responds to the clone protocol automatically; there is no separate SQL command to start clone on the donor.
+Below is a minimal example for a remote clone.
 
 ### Donor
 
