@@ -1,0 +1,11 @@
+# Build artifacts
+/mysql-clone
+/bin/
+
+# Integration test artifacts
+test-out-it/
+
+# Editor/OS files
+.DS_Store
+.idea/
+.vscode/
